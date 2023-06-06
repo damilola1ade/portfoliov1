@@ -46,63 +46,17 @@ const Footer = () => {
             <div className='app__footer-cards'>
                 <div className='app__footer-card '>
                     <img src={images.email} alt='email' />
-                    <a href='mailto:drosen117@gmail.com' className='p-text'>
+                    <a href='damiiyi@gmail.com' className='p-text'>
                         damiiyi@gmail.com
                     </a>
                 </div>
                 <div className='app__footer-card'>
                     <img src={images.mobile} alt='phone' />
-                    <a href='tel:+1 (516) 417-3427' className='p-text'>
+                    <a href='+234 813 848 6922' className='p-text'>
                         +234 813 848 6922
                     </a>
                 </div>
             </div>
-            {!isFormSubmitted ? (
-                <div className='app__footer-form app__flex'>
-                    <div className='app__flex'>
-                        <input
-                            className='p-text'
-                            type='text'
-                            placeholder='Your Name'
-                            name='username'
-                            value={username}
-                            onChange={handleChangeInput}
-                        />
-                    </div>
-                    <div className='app__flex'>
-                        <input
-                            className='p-text'
-                            type='email'
-                            placeholder='Your Email'
-                            name='email'
-                            value={email}
-                            onChange={handleChangeInput}
-                        />
-                    </div>
-                    <div>
-                        <textarea
-                            className='p-text'
-                            placeholder='Your Message'
-                            value={message}
-                            name='message'
-                            onChange={handleChangeInput}
-                        />
-                    </div>
-                    <button
-                        type='button'
-                        className='p-text'
-                        onClick={handleSubmit}
-                    >
-                        {!loading ? 'Send Message' : 'Sending...'}
-                    </button>
-                </div>
-            ) : (
-                <div>
-                    <h3 className='head-text'>
-                        Thank you for getting in touch!
-                    </h3>
-                </div>
-            )}
         </>
     )
 }
