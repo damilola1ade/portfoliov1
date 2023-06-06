@@ -36,7 +36,7 @@ const Header = () => (
         <p className="p-text">A passionate and dedicated Frontend engineer with a keen eye for creating stunning user interfaces and immersive web experiences. </p>
         </div>
         <div className="tag-cmp app__flex">
-        <p className="p-text">With 4 years experience in the industry, I have honed my skills in React, JavaScript, CSS, Redux and various modern frontend frameworks.
+        <p className="p-text">With 2 years experience in the industry, I have honed my skills in React, JavaScript, CSS, Redux and various modern frontend frameworks.
 
         </p>
         </div>
