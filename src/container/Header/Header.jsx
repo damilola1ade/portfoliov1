@@ -36,7 +36,7 @@ const Header = () => (
         <p className="p-text">A passionate and dedicated front end engineer with a keen eye for creating stunning user interfaces and immersive web experiences. </p>
         </div>
         <div className="tag-cmp app__flex">
-        <p className="p-text">With 2 and a half years experience in the industry, I have honed my skills in React, JavaScript, Redux toolkit and various libraries, including Chakra UI, Material UI and TailwindCSS, and state management tools.
+        <p className="p-text">With 3 and a half years experience in the industry, I have honed my skills in React, JavaScript, Next.js, REST API and various modern UI libraries, including Chakra UI, Material UI and TailwindCSS, and state management tools including Redux toolkit.
 
         </p>
         </div>
